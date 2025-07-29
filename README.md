@@ -6,6 +6,9 @@ In this project, I'll detail how I made my own exercise simulator to play Zelda:
 ## 🚧 Status
 Currently in Development! Features may be added or changed.
 
+### Gathering data to train the Action Recognition LSTMS
+![GIF of gathering training data for LSTMS](https://github.com/James-Lian/botw-exercise-simulator/blob/main/assets/ActionRecognition.gif)
+
 ## 🧠 How it works
 - 📸 Webcam footage is retrieved using OpenCV
 - 🏃‍➡️ 3D joint positions and pose landmarks are retrieved from footage using Mediapipe
@@ -15,8 +18,6 @@ Currently in Development! Features may be added or changed.
 - 🎮 An Arduino Leonardo with an HC-05 bluetooth module is plugged into the switch to emulate controller input
   - Once the action recognition is performed, the results are sent to the Leonardo to perform specific controller inputs
 - 🤖 Separate processes allow OpenCV, Mediapipe, my LSTMs, and the code to control the Uno and Leonardo all at the same time. The PC acts as the central hub
-
-Training the LSTMs
 
 ## 📚 Acknowledgements
 - 🐍 Python libraries used include OpenCV, Mediapipe, Tensorflow, Multiprocessing, Pyserial, Pandas, and more
