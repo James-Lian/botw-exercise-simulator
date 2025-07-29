@@ -1,6 +1,8 @@
 # Zelda: BOTW-Exercise-Simulator (Python / C++ / Arduino) - WIP
 Ever wanted to play video games *and* exercise? What's that? Just Dance? Wii Sports? Never heard of 'em.
 
+![GIF of initial test of program](https://github.com/James-Lian/botw-exercise-simulator/blob/main/doc_assets/initial-test.gif)
+
 In this project, I'll detail how I made my own exercise simulator to play Zelda: Breath of the Wild and simulate exactly how taxing saving Hyrule really is. You'll be able to experience both the frustration of forgetting the controls and the exhaustion of swinging at nothing in the air. Link seriously  needs a break.
 
 ## 🚧 Status
