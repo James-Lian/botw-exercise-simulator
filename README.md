@@ -12,6 +12,9 @@ Currently in development! Features may be added or changed.
 #### Gathering data to train the Action Recognition LSTMS
 ![GIF of gathering training data for LSTMS](https://github.com/James-Lian/botw-exercise-simulator/blob/main/doc_assets/ActionRecognition.gif)
 
+#### Behind the camera controls - a joystick mounted to an Arduino Uno
+![GIF of showcasing camera controls](https://github.com/James-Lian/botw-exercise-simulator/blob/main/doc_assets/behind-the-camera-controls.gif)
+
 ## 🧠 How it works
 - 📸 Webcam footage is retrieved using OpenCV
 - 🏃‍➡️ 3D joint positions and pose landmarks are retrieved from footage using Mediapipe
