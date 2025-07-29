@@ -8,7 +8,7 @@ Currently in development! Features may be added or changed.
 
 ## 🖼️ Gallery
 #### Gathering data to train the Action Recognition LSTMS
-![GIF of gathering training data for LSTMS](https://github.com/James-Lian/botw-exercise-simulator/blob/main/doc-assets/ActionRecognition.gif)
+![GIF of gathering training data for LSTMS](https://github.com/James-Lian/botw-exercise-simulator/blob/main/doc_assets/ActionRecognition.gif)
 
 ## 🧠 How it works
 - 📸 Webcam footage is retrieved using OpenCV
