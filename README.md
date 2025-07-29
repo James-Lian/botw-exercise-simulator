@@ -6,7 +6,8 @@ In this project, I'll detail how I made my own exercise simulator to play Zelda:
 ## 🚧 Status
 Currently in Development! Features may be added or changed.
 
-### Gathering data to train the Action Recognition LSTMS
+## 🖼️ Gallery
+#### Gathering data to train the Action Recognition LSTMS
 ![GIF of gathering training data for LSTMS](https://github.com/James-Lian/botw-exercise-simulator/blob/main/assets/ActionRecognition.gif)
 
 ## 🧠 How it works
