@@ -38,7 +38,7 @@ Currently in development! Results may be unpredictable and unreliable. Features 
 - Mid June 2025: Training custom LSTMs using gathered joint data (see [this repository](https://github.com/James-Lian/action-recognizer))
 - Early July 2025: Building Arduino Uno and Arduino Leonardo circuits
 - July 28th, 2025: First working version
-- Currently: Polishing the action recognition, adding more actions and functionality, and improving performance
+- Currently: Improving the action recognition accuracy, decreasing latency between commands, adding more actions and functionality, and improving overall performance
 
 ## 🕹️ How to run
 ⚠️ As of the time of writing (July 2025), Mediapipe only works with Python version 3.12 or earlier versions.
