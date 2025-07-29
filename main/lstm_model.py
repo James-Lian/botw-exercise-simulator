@@ -166,7 +166,7 @@ class ActionRecognitionModel:
         if not self.is_trained:
             raise Exception("Model must be trained before making predictions.")
         
-        probabilities = self.model.predict(X)
+        probabilities = self.model.predict(X, verbose=0)
         predicted_indices = np.argmax(probabilities, axis=1)
         # maximma of a function, or in this case, the category with the highest probability
         predicted_classes = self.label_encoder.inverse_transform(predicted_indices)
