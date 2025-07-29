@@ -4,7 +4,7 @@ Ever wanted to play video games *and* exercise? What's that? Just Dance? Wii Spo
 In this project, I'll detail how I made my own exercise simulator to play Zelda: Breath of the Wild and simulate exactly how taxing saving Hyrule really is. You'll be able to experience both the frustration of forgetting the controls and the exhaustion of swinging at nothing in the air. Link seriously  needs a break.
 
 ## 🚧 Status
-Currently in Development! Features may be added or changed.
+Currently in development! Features may be added or changed.
 
 ## 🖼️ Gallery
 #### Gathering data to train the Action Recognition LSTMS
