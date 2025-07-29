@@ -36,7 +36,7 @@ Currently in Development! Features may be added or changed.
 - Currently: Polishing the action recognition, adding more actions and functionality, and improving performance
 
 ## 🕹️ How to run
-
+⚠️ As of the time of writing (July 2025), Mediapipe only works with Python version 3.12 or earlier versions.
 
 ## ⌨️ Command List
 Video coming soon (?)
