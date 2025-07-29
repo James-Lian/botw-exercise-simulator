@@ -9,12 +9,14 @@ Currently in Development! Features may be added or changed.
 ## 🧠 How it works
 - 📸 Webcam footage is retrieved using OpenCV
 - 🏃‍➡️ 3D joint positions and pose landmarks are retrieved from footage using Mediapipe
-- 🏭 Joint positions are processed through two custom-trained LSTMs: one for recognizing leg movements (e.g. running), and another for recognizing arm movements (e.g. swinging sword)
+- 🏭 Joint positions are processed through two [custom-trained LSTMs](https://github.com/James-Lian/action-recognizer): one for recognizing leg movements (e.g. running), and another for recognizing arm movements (e.g. swinging sword)
 - 🕹️ An Arduino Uno with an HC-05 bluetooth module mimics the right stick of a Pro controller to turn the camera (unfortunately, as Mediapipe 3D joint positions have their origin centered between the hips, there is no obvious indication or turning or alternative movement, so to control the camera I had to use an Arduino).
   - The joystick data is sent to the PC and forwarded to the Leonardo
 - 🎮 An Arduino Leonardo with an HC-05 bluetooth module is plugged into the switch to emulate controller input
   - Once the action recognition is performed, the results are sent to the Leonardo to perform specific controller inputs
 - 🤖 Separate processes allow OpenCV, Mediapipe, my LSTMs, and the code to control the Uno and Leonardo all at the same time. The PC acts as the central hub
+
+Training the LSTMs
 
 ## 📚 Acknowledgements
 - 🐍 Python libraries used include OpenCV, Mediapipe, Tensorflow, Multiprocessing, Pyserial, Pandas, and more
@@ -26,7 +28,7 @@ Currently in Development! Features may be added or changed.
 
 ## 📈 Timeline
 - Early June 2025: Start project and brainstorming
-- Mid June 2025: Training custom LSTMs using gathered joint data
+- Mid June 2025: Training custom LSTMs using gathered joint data (see [this repository](https://github.com/James-Lian/action-recognizer))
 - Early July 2025: Building Arduino Uno and Arduino Leonardo circuits
 - July 28th, 2025: First working version
 - Currently: Polishing the action recognition, adding more actions and functionality, and improving performance
