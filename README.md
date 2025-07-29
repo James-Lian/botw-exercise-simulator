@@ -9,7 +9,7 @@ In this project, I'll detail how I made my own exercise simulator to play Zelda:
 Currently in development! Features may be added or changed.
 
 ## 🖼️ Gallery
-#### Gathering data to train the Action Recognition LSTMS
+#### Showcasing the Action Recognition LSTMS
 ![GIF of gathering training data for LSTMS](https://github.com/James-Lian/botw-exercise-simulator/blob/main/doc_assets/ActionRecognition.gif)
 
 #### Behind the camera controls - a joystick mounted to an Arduino Uno
